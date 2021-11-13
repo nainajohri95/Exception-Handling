@@ -1,0 +1,32 @@
+Exception Handling:-
+It is a mechanism to handle runtime errors such as classNotFoundException, IOException, SQLException etc.
+
+Error Types:
+1.Assertion
+2.Exception
+
+Exception Types:-
+1.Compiletime(Checked exception)
+2.Runtime(unchecked exception)
+
+Runtime exception class:-
+1.Predefined:-
+
+Common Senerio of Java Exception:-
+
+1.ArithmeticException:
+ex. int a =50/0;
+
+2.ArrayIndexOutOfBoundException:-
+int a[] = newint[5];
+a[10] = 50;
+    
+3.NullPointerException:-
+ex. String s = null;
+    System.out.println(s.length());
+    
+4.NumberFormatException:-
+String s = "abc";
+int = Integer.parseInt(s);
+
+etc..
